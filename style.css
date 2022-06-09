@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+:root{
+    --yazirengi : #0D0D0D;
+    --arkaplan : #F2F2F2; 
+    --icdekor : #D9B29C;
+    --icdekorkoyu : #BF7D65;
+    --icdekorbold : #A64F3C; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+.container {
+    margin: 5rem;
+    color: var(--arkaplan);
+}
+h1 {
+    margin: 1rem;
+    text-align: center;
+}
+
+h2 {
+    margin: 1rem;
+    text-align: center;
+}
+.container div {
+        margin: 3rem;
+        text-align: center;
+       
+}
+#input {
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background-color: var(--icdekor);
+}
+
+#btn {
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background-color: var(--icdekor);
+    color: var(--yazirengi);
+    font-weight: 600;
+}
+
+.reset {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    visibility: hidden;
+}
