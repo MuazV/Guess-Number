@@ -1,4 +1,4 @@
-let sayac = 7;
+let sayac = 5;
 let sayi = Math.floor(Math.random() * 101);
 
 const inputs = document.querySelector(".inputs");
@@ -29,7 +29,7 @@ btn.addEventListener("click",() => {
         higher.innerText = Number(input.value);
         input.value = "";
         if(sayac<1){
-            guessdiv.innerText = "Hakkınız bitti."
+            guessdiv.innerText = "Your right is over."
             btn.remove();
             input.remove();
             reset.style.visibility = "visible"
@@ -42,7 +42,7 @@ btn.addEventListener("click",() => {
         lower.innerText = Number(input.value);
         input.value = "";
         if(sayac<1){
-            guessdiv.innerText = "Hakkınız bitti"
+            guessdiv.innerText = "Your right is over"
             btn.remove();
             input.remove();
         }
@@ -54,7 +54,7 @@ btn.addEventListener("click",() => {
     }
    
     }else {
-        alert("hatalı girşi yaptınız");
+        alert("You have entered incorrectly.");
         input.focus()
     }
     
